@@ -18,6 +18,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id="action_list_correspondence_data" model="ir.actions.act_window">
+        <field name="name">Korespondensi</field>
+        <field name="res_model">data.correspondence</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <menuitem id="root_menu" 
         name="BCA PPIAC"
         sequence="1"/>
@@ -39,5 +45,11 @@
         parent="root_menu"
         action="action_list_account_data"
         sequence="3"/>
+
+    <menuitem id="data_correspondence_menu" 
+        name="Korespondensi"
+        parent="root_menu"
+        action="action_list_correspondence_data"
+        sequence="4"/>
 
 </odoo>
