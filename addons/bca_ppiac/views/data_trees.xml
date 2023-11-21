@@ -62,4 +62,18 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_loan_tree">
+    <field name="name">data.asset.tree</field>
+    <field name="model">data.asset</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="asset_name"/>
+        <field name="type"/>
+        <field name="asset_value"/>
+        <field name="date_acquired"/>
+      </tree>
+    </field>
+  </record>
+
 </odoo>

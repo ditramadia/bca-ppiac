@@ -103,4 +103,22 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_asset_form">
+    <field name="name">data.asset.form</field>
+    <field name="model">data.asset</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="asset_name"/>
+            <field name="type"/>
+            <field name="asset_value"/>
+            <field name="date_acquired"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
 </odoo>

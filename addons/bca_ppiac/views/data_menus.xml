@@ -30,6 +30,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id="action_list_asset_data" model="ir.actions.act_window">
+        <field name="name">Aset</field>
+        <field name="res_model">data.asset</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <menuitem id="root_menu" 
         name="BCA PPIAC"
         sequence="1"/>
@@ -63,5 +69,11 @@
         parent="root_menu"
         action="action_list_loan_data"
         sequence="5"/>
+
+    <menuitem id="data_asset_menu" 
+        name="Aset"
+        parent="root_menu"
+        action="action_list_asset_data"
+        sequence="6"/>
 
 </odoo>
