@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <record model="ir.ui.view" id="data_customerpersonal_form">
+    <field name="name">data.customerpersonal.form</field>
+    <field name="model">data.customerpersonal</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="name"/>
+            <field name="nik"/>
+            <field name="mother_maiden_name"/>
+            <field name="address"/>
+            <field name="city"/>
+            <field name="province"/>
+            <field name="country"/>
+            <field name="postal_zip"/>
+            <field name="date_of_birth"/>
+            <field name="phone_number"/>
+            <field name="registered_at"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="data_branchoffice_form">
+    <field name="name">data.branchoffice.form</field>
+    <field name="model">data.branchoffice</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="code"/>
+            <field name="name"/>
+            <field name="address"/>
+            <field name="city"/>
+            <field name="province"/>
+            <field name="country"/>
+            <field name="postal_zip"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+</odoo>

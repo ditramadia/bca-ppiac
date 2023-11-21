@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        
+        <!-- Kantor Cabang -->
+        <record id='branch_office_1' model='data.branchoffice'>
+            <field name='code' type='char'>0039</field>
+            <field name='name' type='char'>KCU Probolinggo</field>
+            <field name='address' type='char'>Jln. Suroyo 28</field>
+            <field name='city' type='char'>3</field>
+            <field name='province' type='char'>0</field>
+            <field name='country' type='char'>0</field>
+            <field name='zip_code' type='char'>67211</field>
+        </record>
+        <record id='branch_office_2' model='data.branchoffice'>
+            <field name='code' type='char'>0201</field>
+            <field name='name' type='char'>KCP Kraksaan</field>
+            <field name='address' type='char'>Jln. PB Sudirman 99 B, Kraksaan</field>
+            <field name='city' type='char'>3</field>
+            <field name='province' type='char'>0</field>
+            <field name='country' type='char'>0</field>
+            <field name='zip_code' type='char'>67282</field>
+        </record>
+    </data>
+</odoo>
