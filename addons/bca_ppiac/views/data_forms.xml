@@ -65,6 +65,25 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_audit_form">
+    <field name="name">data.audit.form</field>
+    <field name="model">data.audit</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="title"/>
+            <field name="type"/>
+            <field name="date"/>
+            <field name="report_url"/>
+            <field name="submitted_by"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
   <record model="ir.ui.view" id="data_correspondence_form">
     <field name="name">data.correspondence.form</field>
     <field name="model">data.correspondence</field>
