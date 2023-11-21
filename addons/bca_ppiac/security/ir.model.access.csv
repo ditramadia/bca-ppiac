@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+data_customerpersonal_manager,Data Customerpersonal Manager,model_data_customerpersonal,,1,1,1,1
+data_branchoffice_manager,Data Branchoffice Manager,model_data_branchoffice,,1,1,1,1

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_list_customer_personal_data" model="ir.actions.act_window">
+        <field name="name">Data Pribadi Nasabah</field>
+        <field name="res_model">data.customerpersonal</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_list_branch_office_data" model="ir.actions.act_window">
+        <field name="name">Kantor Cabang</field>
+        <field name="res_model">data.branchoffice</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="root_menu" 
+        name="BCA PPIAC"
+        sequence="1"/>
+
+    <menuitem id="data_customer_personal_menu" 
+        name="Data Pribadi Nasabah"
+        parent="root_menu"
+        action="action_list_customer_personal_data"
+        sequence="1"/>
+
+    <menuitem id="data_branch_office_menu" 
+        name="Kantor Cabang"
+        parent="root_menu"
+        action="action_list_branch_office_data"
+        sequence="2"/>
+
+</odoo>
