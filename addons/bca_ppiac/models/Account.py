@@ -18,4 +18,5 @@ class Account(models.Model):
         ('9', 'BCA Dollar')
     ], required=True)
     balance = fields.Float(string="Saldo", required=True)
-    account_holder = fields.Many2one('data.customerpersonal', string="Pemegang rekening")
+    account_holder = fields.Many2one('data.customerpersonal', string="Pemegang rekening", required=True)
+    registered_at = fields.Many2one('data.branchoffice', string="Kantor cabang", required=True)

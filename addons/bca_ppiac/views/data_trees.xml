@@ -38,4 +38,16 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_correspondence_tree">
+    <field name="name">data.correspondence.tree</field>
+    <field name="model">data.correspondence</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="title"/>
+        <field name="submitted_by"/>
+      </tree>
+    </field>
+  </record>
+
 </odoo>
