@@ -50,4 +50,16 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_loan_tree">
+    <field name="name">data.loan.tree</field>
+    <field name="model">data.loan</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="account_number"/>
+        <field name="type"/>
+      </tree>
+    </field>
+  </record>
+
 </odoo>

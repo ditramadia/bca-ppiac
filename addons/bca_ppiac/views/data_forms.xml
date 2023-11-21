@@ -83,4 +83,24 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_loan_form">
+    <field name="name">data.loan.form</field>
+    <field name="model">data.loan</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="account_number"/>
+            <field name="type"/>
+            <field name="total_loan"/>
+            <field name="interest"/>
+            <field name="span"/>
+            <field name="loan_date"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
 </odoo>

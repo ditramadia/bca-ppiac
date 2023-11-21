@@ -3,3 +3,4 @@ data_customerpersonal_manager,Data Customerpersonal Manager,model_data_customerp
 data_branchoffice_manager,Data Branchoffice Manager,model_data_branchoffice,,1,1,1,1
 data_account_manager,Data Account Manager,model_data_account,,1,1,1,1
 data_correspondence_manager,Data Correspondence Manager,model_data_correspondence,,1,1,1,1
+data_loan_manager,Data Loan Manager,model_data_loan,,1,1,1,1
