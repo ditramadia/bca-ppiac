@@ -12,6 +12,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id="action_list_account_data" model="ir.actions.act_window">
+        <field name="name">Rekening</field>
+        <field name="res_model">data.account</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <menuitem id="root_menu" 
         name="BCA PPIAC"
         sequence="1"/>
@@ -27,5 +33,11 @@
         parent="root_menu"
         action="action_list_branch_office_data"
         sequence="2"/>
+
+    <menuitem id="data_account_menu" 
+        name="Rekening"
+        parent="root_menu"
+        action="action_list_account_data"
+        sequence="3"/>
 
 </odoo>

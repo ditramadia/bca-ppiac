@@ -26,4 +26,16 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_account_tree">
+    <field name="name">data.account.tree</field>
+    <field name="model">data.account</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="account_number"/>
+        <field name="type"/>
+      </tree>
+    </field>
+  </record>
+
 </odoo>

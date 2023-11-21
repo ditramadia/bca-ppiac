@@ -47,4 +47,22 @@
     </field>
   </record>
 
+  <record model="ir.ui.view" id="data_account_form">
+    <field name="name">data.account.form</field>
+    <field name="model">data.account</field>
+    <field name="priority" eval="1"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <field name="account_number"/>
+            <field name="type"/>
+            <field name="balance"/>
+            <field name="account_holder"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
 </odoo>
