@@ -2,7 +2,7 @@ from odoo import models, fields, api
 
 class Asset(models.Model):
     _name = 'data.asset'
-    _description= 'Data rekening nasabah'
+    _description= 'Data aset'
 
     asset_name = fields.Char(string="Nama aset", required=True)
     type = fields.Selection(selection=[
