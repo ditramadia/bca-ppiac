@@ -59,6 +59,7 @@
             <field name="type"/>
             <field name="balance"/>
             <field name="account_holder"/>
+            <field name="registered_at"/>
           </group>
         </sheet>
       </form>
