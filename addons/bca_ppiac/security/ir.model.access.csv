@@ -2,5 +2,6 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 data_customerpersonal_manager,Data Customerpersonal Manager,model_data_customerpersonal,,1,1,1,1
 data_branchoffice_manager,Data Branchoffice Manager,model_data_branchoffice,,1,1,1,1
 data_account_manager,Data Account Manager,model_data_account,,1,1,1,1
+data_loan_manager,Data Loan Manager,model_data_loan,,1,1,1,1
 data_audit_manager,Data Audit Manager,model_data_audit,,1,1,1,1
 data_correspondence_manager,Data Correspondence Manager,model_data_correspondence,,1,1,1,1
